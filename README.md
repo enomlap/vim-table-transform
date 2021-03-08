@@ -55,4 +55,4 @@ PS,this plugin use only minimal vim-script function, even vim version 6.3 can us
 
 ***NOTE:***
 
-    This plugin assume every line has same COLUMNS! If not, least columns was convert and others are skipped.
+    This plugin assume every line has same COLUMNS! If not, least columns will be converted and others are skipped.
