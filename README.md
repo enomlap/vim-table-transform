@@ -55,4 +55,5 @@ PS,this plugin use only minimal vim-script function, even vim version 6.3 can us
 
 ***NOTE:***
 
-    This plugin assume every line has same COLUMNS! If not, least columns will be converted and others are skipped.
+    - This plugin assume every line has same COLUMNS! If not, least columns will be converted and others are skipped.
+    - Max-words for each line is 1024, if you want to transform for very line, change `maxC=1024` to another number in Trans.vim.
