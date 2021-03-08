@@ -1,8 +1,10 @@
 # vim-table-transform
+***Description ***
+
 Do tabled-data matrix transform.
 This is a vim simple plugin to do data matrix transform.
 For example,
-`
+```
 -------------------------------------vim-----------------------------------------------------
 AA BB CC DD EE FF GG HH II JJ
 01 02 03 04 05 06 07 08 09 10
@@ -11,9 +13,9 @@ AA BB CC DD EE FF GG HH II JJ
 AA BB CC DD EE FF GG HH II JJ
 AA BB CC DD EE FF GG HH II JJ
 -------------------------------------vim-----------------------------------------------------
-`
+```
 after CTRL-V selected block, press '\dt' to recall this plugin, you'll got:
-`
+```
 -------------------------------------vim-----------------------------------------------------
 ...
 AA BB CC DD EE FF GG HH II JJ
@@ -39,8 +41,11 @@ AA BB CC DD EE FF GG HH II JJ
 >...
 >-------------------------------------vim-----------------------------------------------------
 >
-`
+```
 this just like matrix transform in numerical operation.
 
 
 PS,this plugin use only minimal vim-script function, even vim version 6.3 can use it. No 'list','printf' functions are needed.
+
+***INSTALL：***
+    put Trans.vim to ~/.vim/plugin/ folder to enable it.
