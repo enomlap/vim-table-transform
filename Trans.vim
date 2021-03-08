@@ -1,6 +1,6 @@
-" Vim plugin for perform Transform for given lines.
+" Vim plugin for performing Data Transform of given lines.
 " Maintainer: zuohj
-" Last Change: 2021 Mar 4
+" Last Change: 2021 Mar 8
 
 " Don't do this when:
 " - when 'compatible' is set
