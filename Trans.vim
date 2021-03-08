@@ -5,7 +5,6 @@
 " Don't do this when:
 " - when 'compatible' is set
 " - this plugin was already loaded
-" - user commands are not available.
 if !&cp && !exists("s:loaded_trans")
 	let s:loaded_trans=1
 	"unmap <Leader>dt
