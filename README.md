@@ -8,18 +8,18 @@ Do tabled-data matrix transform.
 This is a vim simple plugin to do data matrix transform.
 For example,
 ```
--------------------------------------vim-----------------------------------------------------
+-------------------------------------vim window----------------------------------------------------
 AA BB CC DD EE FF GG HH II JJ
 01 02 03 04 05 06 07 08 09 10
 AA BB CC DD EE FF GG HH II JJ
 01 02 03 04 05 06 07 08 09 10
 AA BB CC DD EE FF GG HH II JJ
 AA BB CC DD EE FF GG HH II JJ
--------------------------------------vim-----------------------------------------------------
+-------------------------------------vim window----------------------------------------------------
 ```
 Use CTRL-V and move the cursor to select text block, then press '\dt' to recall this plugin, you'll got this:
 ```
--------------------------------------vim-----------------------------------------------------
+-------------------------------------vim window----------------------------------------------------
 ...
 AA BB CC DD EE FF GG HH II JJ
 01 02 03 04 05 06 07 08 09 10
@@ -42,8 +42,7 @@ AA BB CC DD EE FF GG HH II JJ
  JJ 10 JJ 10 JJ
 >====================================
 >...
->-------------------------------------vim-----------------------------------------------------
->
+-------------------------------------vim window----------------------------------------------------
 ```
 this just like matrix transform in numerical operation.
 
