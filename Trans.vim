@@ -86,6 +86,7 @@ if !&cp && !exists("s:loaded_trans")
 		endwhile
 
 
+                ' reverse lines.
 		let i=0
 		while i<(wordC/2)
 			let tmp_line=getline(line2+1+i)
@@ -99,10 +100,7 @@ if !&cp && !exists("s:loaded_trans")
 		call append(line2+wordC,'>==================================== ')
 		call append(line1-1,'<!!!=================== visual block is reformatted .>')
 
-		" 	let currentL=substitute('a b c',' ','-','g')
 
-		"		unlet g:tabledata_start_line
-		"		unlet g:tabledata_end_line
 	endfunc
 
 	function! ToStr(v,d)
