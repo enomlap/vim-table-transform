@@ -1,7 +1,8 @@
 # vim-table-transform
 
 
-***Description ***
+***Description***
+
 
 Do tabled-data matrix transform.
 This is a vim simple plugin to do data matrix transform.
@@ -16,7 +17,7 @@ AA BB CC DD EE FF GG HH II JJ
 AA BB CC DD EE FF GG HH II JJ
 -------------------------------------vim-----------------------------------------------------
 ```
-after CTRL-V selected block, press '\dt' to recall this plugin, you'll got:
+Use CTRL-V and move the cursor to select text block, then press '\dt' to recall this plugin, you'll got this:
 ```
 -------------------------------------vim-----------------------------------------------------
 ...
