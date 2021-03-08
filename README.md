@@ -5,7 +5,7 @@
 
 
 Do tabled-data matrix transform.
-This is a vim simple plugin to do data matrix transform.
+This is a vim simple plugin to do data matrix transform, which convert selected lines ROW to COLUMN.
 For example,
 ```
 -------------------------------------vim window----------------------------------------------------
@@ -52,3 +52,7 @@ PS,this plugin use only minimal vim-script function, even vim version 6.3 can us
 ***INSTALL：***
 
     put Trans.vim to ~/.vim/plugin/ folder to enable it.
+
+***NOTE:***
+
+    This plugin assume every line has same COLUMNS! If not, least columns was convert and others are skipped.
