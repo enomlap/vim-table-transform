@@ -86,7 +86,7 @@ if !&cp && !exists("s:loaded_trans")
 		endwhile
 
 
-                ' reverse lines.
+                " reverse lines.
 		let i=0
 		while i<(wordC/2)
 			let tmp_line=getline(line2+1+i)
@@ -100,15 +100,6 @@ if !&cp && !exists("s:loaded_trans")
 		call append(line2+wordC,'>==================================== ')
 		call append(line1-1,'<!!!=================== visual block is reformatted .>')
 
-
 	endfunc
-
-	function! ToStr(v,d)
-		" TODO: assert int1<10^5,d<5
-		let tstr=strpart("        ",0,a:d) . a:v
-		return strpart(strpart(tstr,0,a:d) . a:v,strlen(tstr)-a:d,a:d)
-	endfunc
-
-
 endif
 
